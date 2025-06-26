@@ -1,0 +1,29 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.crash
+.terraform.lock.hcl
+terraform.tfvars
+
+# Docker
+*.log
+*.pid
+*.swp
+docker-compose.override.yml
+
+# Python (if your app uses it)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+
+# Node.js (if using Node later)
+node_modules/
+npm-debug.log*
+
+# System
+.DS_Store
+Thumbs.db
