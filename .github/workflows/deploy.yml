@@ -25,7 +25,7 @@ jobs:
 
     - name: Build and push Docker image
       env:
-        ECR_REGISTRY: <your_aws_account_id>.dkr.ecr.us-east-1.amazonaws.com
+        ECR_REGISTRY: 414819400975.dkr.ecr.us-east-1.amazonaws.com
         ECR_REPOSITORY: ecs-cicd-repo
         IMAGE_TAG: latest
       run: |
